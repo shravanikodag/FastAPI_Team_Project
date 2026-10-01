@@ -15,6 +15,7 @@ def root():
 
 @app.get("/health")
 def health_check():
-    return {
-        "status": "healthy"
-    }
+ return {
+    "status": "healthy",
+    "service": "Team Task Management API"
+}
