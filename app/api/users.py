@@ -7,3 +7,4 @@ def get_users():
     return {
         "users": ["Mayuri", "Shravani", "Rahul"]
     }
+
